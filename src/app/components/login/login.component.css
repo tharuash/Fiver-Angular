@@ -1,0 +1,12 @@
+.card-notify-badge {
+    position: absolute;
+    left: 40px;
+    top: 1400px;
+    background: #fff;
+    text-align: center;
+    
+    color: #000;
+    padding: 5px 10px;
+    font-size: 14px;
+
+}

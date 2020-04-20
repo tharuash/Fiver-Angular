@@ -1,0 +1,23 @@
+.bs-example {
+    margin: 20px;
+  }
+  
+  .navbar {
+    margin-bottom: 1rem;
+  }
+
+  #topheader .navbar-nav li > a { 
+    text-transform: capitalize; 
+    color: white; 
+    -webkit-transition: background-color .2s, color .2s; 
+    transition: background-color .2s, color .2s; 
+} 
+#topheader .navbar-nav li > a:hover,  
+#topheader .navbar-nav li > a:focus { 
+    background-color: #ea2340; 
+    color: #fff; 
+} 
+#topheader .navbar-nav li.active > a { 
+    background-color: #ea2340; 
+    color: white; 
+} 
