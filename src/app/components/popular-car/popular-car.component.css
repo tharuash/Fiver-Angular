@@ -1,0 +1,35 @@
+#outer {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  -ms-transform: skew(30deg, 0deg);
+  -webkit-transform: skew(30deg, 0deg);
+  transform: skew(30deg, 0deg);
+  /*outline:1px solid #fff;*/
+  width: 420px;
+  height: 400px;
+  overflow: hidden;
+}
+
+#inner {
+  position: absolute;
+  left: -130px;
+  /*background-image: url("popular1.jpeg");*/
+  width: 840px;
+  height: 400px;
+  -ms-transform: skew(-30deg, 0deg);
+  -webkit-transform: skew(-30deg, 0deg);
+  transform: skew(-30deg, 0deg);
+}
+
+.card-notify-badge {
+    position: absolute;
+    /*left: 500px;*/
+    background: #fff;
+    text-align: center;
+  
+    color: #000;
+    font-size: 14px;
+    top: 1515px;
+  
+  }

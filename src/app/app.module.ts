@@ -13,6 +13,7 @@ import { CarWorkComponent } from './components/car-work/car-work.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { PopularComponent } from './components/popular/popular.component';
 import { FeedbackComponent } from './components/feedback/feedback.component';
+import { PopularCarComponent } from './components/popular-car/popular-car.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FeedbackComponent } from './components/feedback/feedback.component';
     CarWorkComponent,
     BannerComponent,
     PopularComponent,
-    FeedbackComponent
+    FeedbackComponent,
+    PopularCarComponent
   ],
   imports: [
     BrowserModule,
