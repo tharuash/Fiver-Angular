@@ -15,9 +15,11 @@
   </div>
 </div>
 
-<div  style="margin-top: 5%; background-image: url('assets/img/frame.png')">
+<div style="margin-top: 5%; background-image: url('assets/img/frame.png'); overflow-x: hidden">
   <div class="flex-row d-flex justify-content-center align-items-center">
-    <app-popular-car image = "../../../assets/img/popular1.jpeg" left="200px" car_name="Lamborghini" price="450"></app-popular-car>
-    <app-popular-car image = "../../../assets/img/popular2.jpg" left="650px" car_name="Jaguar" price="350"></app-popular-car>
-    <app-popular-car image = "../../../assets/img/popular3.jpeg" left="1050px" car_name="Camaro" price="250"></app-popular-car>
-</div>
+
+    <app-popular-car *ngFor="let i of imageDetails" image="{{i.path}}" left="{{i.left}}" car_name="{{i.name}}"
+      price="{{i.price}}">
+    </app-popular-car>
+
+  </div>

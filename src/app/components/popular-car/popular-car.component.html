@@ -1,14 +1,17 @@
 <div id="outer">
-    <img src='{{image}}' id="inner" />
+  <img src='{{image}}' id="inner" />
+</div>
+
+<div class="card-notify-badge " [ngStyle]="{'left': left}">
+  <div style="background: #ea2340; width:125px">
+    <span style="color: white; font-size: 20px">{{car_name}}</span>
+  </div>
+  <div class="shadow" >
+    <span style="color: #ea2340; font-size: 20px; margin-left: 10px">$ <span style="color: #ea2340; font-size: 40px">{{price}}</span></span>
+    <div style="width: 40px;height: 30px;transform: rotate(-90deg); margin-top: 10px;float: right;">
+      <span style="color: #062639; font-size: 10px">PER DAY</span>
+    </div>
   </div>
 
-  <div class="card-notify-badge "  [ngStyle]="{'left': left}">
-    <div style="background: #ea2340; width:120px">
-      <span style="color: white; font-size: 20px">{{car_name}}</span>
-    </div>
-    <div class="shadow mb-5">
-      <span  style="color: #ea2340;">$ <span style="color: #ea2340; font-size: 25px">{{price}}</span></span>
-    </div>
 
-
-  </div>
+</div>
